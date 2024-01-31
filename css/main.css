@@ -2,3 +2,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /* import common */
 @import url(./common.css);
+
+section.wrap-ec {
+  /* border: 2px solid black; */
+  margin-top: 20px;
+}
+
+section.wrap-ec .ec-mainheader {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 58px;
+  letter-spacing: -.4px;
+}
+
+section.wrap-ec .ec-mainsubtext {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px 0 0;
+  color: #666;
+  line-height: 34px;
+}
+
+section.wrap-ec .ec-body {
+  width: 80%;
+  margin: 60px auto 0;
+  padding: 0 30px;
+}
+
+section.wrap-ec .ec-body .electric-car {
+  margin: 51px 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-img {
+  width: 65%;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-img img {
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  background: #f7f3f2;
+  padding: 2.3vw 2.61vw 2.8vw 60px;
+
+  flex-direction: column;
+  position: relative;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-badge {
+  background: #007fa8;
+  font-size: 12px;
+  color: #fff;
+  padding: 3px;
+  border: 1px solid #007fa8;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-carname {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -.4px;
+  margin: 8px 0 9px;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-subtext {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -.4px;
+  font-weight: 500;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-more {
+  margin-top: 36px;
+  width: 120px;
+  background: #022c5f;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+
+}
