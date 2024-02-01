@@ -2,3 +2,278 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /* import common */
 @import url(./common.css);
+
+/* section .event */
+
+section.event .inner {
+  margin: 100px auto;
+  width: 90%;
+}
+
+section.event .inner h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+section.event .inner>p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section.event .inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+section.event .inner ul li {
+  width: 30%;
+  margin: 0 20px;
+}
+
+section.event .inner ul li .img-box {
+  object-fit: cover;
+  position: relative;
+}
+
+section.event .inner ul li .img-box img {
+  width: 100%;
+}
+
+section.event .inner ul li .img-box::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.event .inner ul li a:hover .img-box::before {
+  width: 100%;
+}
+
+section.event .inner ul li .img-box::after {
+  content: '자세히 보기 +';
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  padding: 10px 30px;
+  opacity: 0;
+}
+
+section.event .inner ul li a:hover .img-box::after {
+  opacity: 1;
+}
+
+section.event .inner ul li h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+section.event .inner ul li p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* section .notice */
+
+section.notice .inner {
+  margin: 200px auto;
+  width: 60%;
+}
+
+section.notice .inner h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+section.notice .inner .tab {
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+section.notice .inner .tab li {
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 0, 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+}
+
+section.notice .inner .tab li.active {
+  color: white;
+  background-color: rgb(51, 141, 194);
+}
+
+section.notice .inner ul {
+  display: flex;
+}
+
+section.notice .inner ul li {
+  width: 25%;
+  position: relative;
+}
+
+section.notice .inner ul li .img-box {
+  object-fit: cover;
+  margin: 0.5%;
+}
+
+section.notice .inner ul li .img-box img {
+  border: 5px solid black;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+section.notice .inner ul li .img-box::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(19, 19, 167, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.notice .inner ul li a:hover .img-box::after {
+  width: 100%;
+}
+
+section.notice .inner ul li .img-box::before {
+  content: 'N 컬렉션 | N Vision 74 RC카 출시 | 현대자동차';
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  padding: 10px 30px;
+  opacity: 0;
+}
+
+section.notice .inner ul li a:hover .img-box::before {
+  opacity: 1;
+}
+
+
+section.notice .inner ul li p {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 50px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* section .information */
+section.information {
+  margin-top: 50px;
+  padding-top: 30px;
+  font-weight: bold;
+  background-color: #f6f3f2;
+  ;
+}
+
+section.information .inner {
+  border: 2px solid #f0e1dd;
+  margin: 0 400px -50px;
+  padding: 30px 50px 80px 50px;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+section.information .inner h2 {
+  font-size: 16px;
+  margin: 10px auto;
+}
+
+section.information .inner ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.information .inner ul li h2 {
+  color: navy;
+}
+
+section.information .inner ul li ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+section.information .inner ul li ul li {
+  line-height: 2.5;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #222;
+  color: #999;
+}
+
+footer .inner {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+footer .inner ul.footer1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .inner ul.footer1 li ul {
+  display: flex;
+  line-height: 2;
+}
+
+
+
+
+footer .inner ul.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .inner ul.footer2 li {
+  display: flex;
+  width: 25%;
+  height: 50%;
+  font-size: 11px;
+  line-height: 1.5;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+footer .inner ul.footer2 li img {
+  object-fit: contain;
+  width: 15%;
+  margin-right: 5px;
+}
