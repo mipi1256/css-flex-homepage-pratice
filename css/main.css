@@ -164,7 +164,7 @@ section.wrap-trendy h2.title {
   font-size: 44px;
   font-weight: bold;
   line-height: 58px;
-  
+
 }
 
 section.wrap-trendy p.title-subtext {
@@ -198,6 +198,7 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title 
   font-weight: bold;
   line-height: 44px;
 }
+
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title span {
   font-weight: 400;
 }
@@ -227,7 +228,7 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info a {
   box-sizing: border-box;
 }
 
-section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img{
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img {
   vertical-align: top;
 }
 
@@ -235,7 +236,7 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img{
 
 /* 현대 shop contents start */
 
-section.wrap-shop{
+section.wrap-shop {
   padding-top: 140px;
   text-align: center;
 }
@@ -259,13 +260,164 @@ section.wrap-shop .section-body {
   padding: 0 30px;
 }
 
-section.wrap-shop .story-list {
-  border: 2px dashed red;
+section.wrap-shop .section-body ul.story-list {
+  /* border: 2px dashed red; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin: 51px 0 0;
 }
 
-section.wrap-shop .shop-best-wrap {
-  border: 2px dashed red;
+section.wrap-shop .section-body ul.story-list li {
+  width: 33.33%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 0 32px;
 }
+section.wrap-shop .section-body ul.story-list li:first-child{
+  margin: 0;
+}
+
+section.wrap-shop .section-body ul.story-list li a {
+  display: block;
+  background: transparent;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+section.wrap-shop .section-body .story-list ul.story-list li a .img {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+section.wrap-shop .section-body ul.story-list li a .story-txt {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 9px 0 10px 20px;
+  background: rgba(0, 0, 0, .3);
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: -2.9px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+section.wrap-shop .section-body .shop-best-wrap {
+  /* border: 2px dashed red; */
+  display: flex;
+  max-height: 288px;
+  margin-top: 40px;
+  text-align: left;
+
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more {
+  border: 2px dashed red;
+  position: relative;
+  padding: 40px 30px 0;
+  width: 20%;
+  background: #f6f3f2;
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more h3.title {
+  font-size: 24px;
+  color: #000;
+  line-height: 26px;
+  font-weight: 600;
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more h3.title a{
+  position: absolute;
+  top: 164px;
+  display: block;
+  width: auto;
+  height: auto;
+  background: transparent;
+  font-size: 16px;
+  line-height: 30px;
+  color: #002c5f;
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more .txt {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+}
+
+section.wrap-shop .section-body .shop-best-wrap ul.best-list {
+  border: 2px dashed red;
+  display: flex;
+  width: 80%;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li {
+  width: 25%;
+  margin-left: 32px;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a{
+  position: relative;
+  display: block;
+  text-align: left;
+  background: transparent;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .ranking {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background: #007fa8;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  text-align: center;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img {
+  border: 1px solid #e5e5e5;
+  object-fit: fill;
+  display: block;
+  box-sizing: border-box;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img img {
+  width: 195px;
+  height: 100%;
+  object-fit: fill;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap {
+  box-sizing: border-box;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .product {
+  overflow: hidden;
+  margin: 15px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  /* letter-spacing: -2px; */
+  color: #000;
+  line-height: 22px;
+  box-sizing: border-box;
+  word-break: keep-all;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap{
+  display: flex;
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: #000;
+  line-height: 26px;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap .discount {
+  color: #e63312;
+  font-weight: bold;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap .price {
+  font-weight: bold;
+}
+
+
+
 
 
 
