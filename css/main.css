@@ -16,15 +16,20 @@ div.main_header {
   width: 100%;
   padding: 10px 0;
   height: 100px;
+  background: #fff;
+  z-index: 999;
+  opacity: 0.7;
 }
 
 div.main_header .inner_wrap {
   width: 80%;
   border: 1px dashed blue;
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-between;
   height: 60px;
+
+
 
 }
 
@@ -58,6 +63,7 @@ div.main_header .inner_wrap div {
   border: 1px dashed purple;
   width: 30%;
 }
+
 div.main_header .inner_wrap .img-log {
   background: url(../img/hyu_logo_og_image.jpg) no-repeat center/cover;
 
@@ -90,7 +96,7 @@ header.top_main {
   width: 100%;
   height: 950px;
   position: relative;
-  
+
 }
 
 header .txt-wrap {
@@ -100,52 +106,64 @@ header .txt-wrap {
   top: 10%;
   height: 90%;
 }
-header .txt-wrap a{
+
+header .txt-wrap a {
   display: block;
   border: 1px dashed red;
   color: #fff;
 }
+
 header .txt-wrap .text-1 {
   font-size: 60px;
   font-weight: 700;
   position: absolute;
-  top: 30px; left: 300px;
+  top: 30px;
+  left: 300px;
 }
 
 header .txt-wrap .text-2 {
   font-size: 20px;
   font-weight: 600;
-  
+
   position: absolute;
-  top: 120px; left: 300px;
+  top: 120px;
+  left: 300px;
 }
 
 header .txt-wrap .btn-less {
   border: 1px dashed red;
-  width: 50px; height: 150px;
+  width: 50px;
+  height: 150px;
   position: absolute;
-  top: 250px; left: 100px;
+  top: 250px;
+  left: 100px;
   color: #fff;
   font-size: 50px;
 }
 
 header .txt-wrap .btn-than {
   border: 1px dashed red;
-  width: 50px; height: 150px;
+  width: 50px;
+  height: 150px;
   position: absolute;
-  top: 250px; right: 100px;
+  top: 250px;
+  right: 100px;
   color: #fff;
   font-size: 50px;
 }
 
 header .txt-wrap div .text-3 {
   position: absolute;
-  top: 315px; left: 150px;
+  top: 315px;
+  left: 150px;
 }
+
 header .txt-wrap div .text-4 {
   position: absolute;
-  top: 315px; right: 150px;
+  top: 315px;
+  right: 150px;
 }
+
 header .txt-wrap .main-content {
   margin: 10% auto;
   height: 50%;
@@ -154,29 +172,35 @@ header .txt-wrap .main-content {
 
 
 header .txt-wrap .btn-2 {
-  border: 1px dashed darkcyan ;  
+  border: 1px dashed darkcyan;
   color: gray;
   opacity: 0.8;
   position: absolute;
-  top: 75%; left: 45%;
+  top: 75%;
+  left: 45%;
 }
 
 header .txt-wrap .btn-2:nth-child(2) {
   margin-left: 25px;
 }
+
 header .txt-wrap .btn-2:nth-child(3) {
   margin-left: 50px;
 }
+
 header .txt-wrap .btn-2:nth-child(4) {
   margin-left: 75px;
 }
+
 header .txt-wrap .btn-2:nth-child(5) {
   margin-left: 100px;
 }
+
 header .txt-wrap .btn-2:nth-child(6) {
   margin-left: 125px;
   color: aqua;
 }
+
 header .txt-wrap .btn-2:nth-child(7) {
   margin-left: 150px;
 }
@@ -185,7 +209,8 @@ header .txt-wrap .quick-menu {
   position: absolute;
   bottom: 0;
   border: 1px dashed blue;
-  width: 100%; height: 20%;
+  width: 100%;
+  height: 20%;
   background-color: lightgray;
   opacity: 0.4;
 }
@@ -195,24 +220,34 @@ header .txt-wrap .quick-menu1 {
   width: 49%;
   border: 1px dashed red;
 }
+
 header .txt-wrap .quick-menu1 button {
-  width: 100px;
+  width: 98px;
   border: 1px dashed blue;
   margin: 0 5px;
-  
+
 }
+
+header .txt-wrap .quick-menu1 button i {
+  font-size: 15px;
+
+}
+
 header .txt-wrap .quick-menu1 button img {
   width: 100%;
 }
+
 header .txt-wrap .quick-menu2 {
   border: 1px dashed red;
   margin: 0 auto;
   width: 5%;
 }
+
 header .txt-wrap .quick-menu2 button {
   border-bottom: 3px solid;
   width: 46%;
 }
+
 header .txt-wrap .quick-menu2 button:last-child {
   border-bottom: 3px solid rgb(121, 118, 118);
 }
@@ -226,19 +261,159 @@ header .txt-wrap .quick-menu2 button:last-child {
 
 
 .section-2 {
-  width: 100%; height: 800px;
+  width: 100%;
+  height: 800px;
   border: 1px dashed black;
 }
 
 .section-2 div.content_2 {
   margin: 0 auto;
-  width: 80%; height: 100%;
+  width: 80%;
+  height: 100%;
   border: 1px dashed red;
 }
 
+.section-2 div.content_2 h2 {
+  border: 1px dashed palevioletred;
+  margin-top: 150px;
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-2 div.content_2 p {
+  border: 1px dashed palevioletred;
+  margin-top: 30px;
+  color: gray;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.section-2 div.content_2 .model1 {
+  border: 1px dashed green;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+
+.section-2 div.content_2 .model1 a.model1-1 {
+  width: 574px;
+  height: 432px;
+  position: absolute;
+  top: 70px;
+}
+
+.section-2 div.content_2 .model1 a.model1-1 div {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0%;
+  background: rgb(39, 114, 163);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 60px;
+}
+
+.section-2 div.content_2 .model1 div.model2 {
+  width: 30%;
+  height: 30px;
+  border: 1px dashed blue;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+}
+
+.section-2 div.content_2 .model1 div.model2 button {
+  border-left: 1px solid lightgray;
+  color: gray;
+  font-weight: 600;
+}
+
+.section-2 div.content_2 .model1 div.model2 button:first-child {
+  border: none;
+  color: rgb(39, 114, 163);
+}
+
+.section-2 div.content_2 .model1 div.model3 a {
+  font-size: 40px;
+  font-weight: 700;
+  border: 1px dashed blue;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+}
+
+.section-2 div.content_2 .model1 div.model3 button {
+  width: 224px;
+  height: 200px;
+  border: 1px dashed blue;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.section-2 div.content_2 .model1 div.model3 button img {
+  width: 224px;
+  height: 168px;
+}
+
+.section-2 div.content_2 .model1 div.model3 button:last-child {
+  position: absolute;
+  top: 300px;
+  left: 72%;
+}
+
+/* 세션 1 끝 */
 
 
 
+/* 세션 5 시작 */
 
+.section-5 {
+  width: 100%;
+  height: 722px;
+  border: 1px dashed red;
+}
 
+.section-5 div.section-main5 {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  border: 1px dashed black;
+}
 
+.section-5 div h2 {
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.section-5 div p {
+  color: gray;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.section-5 .section-main5 div.section-brand {
+  width: 80%;
+  height: 399px;
+  margin: 50px auto;
+  border: 1px dashed blue;
+} 
+.section-5 .section-main5 div.section-brand button {
+  width: 255px; height: 399px;
+  border: 1px dashed red;
+  
+}
