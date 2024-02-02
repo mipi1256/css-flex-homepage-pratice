@@ -232,3 +232,41 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img{
 }
 
 /* end trendy hyundai */
+
+/* 현대 shop contents start */
+
+section.wrap-shop{
+  padding-top: 140px;
+  text-align: center;
+}
+
+section.wrap-shop h2.title {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+section.wrap-shop p.title-subtext {
+  margin: 30px 0 0;
+  font-size: 16px;
+  color: #666;
+  line-height: 34px;
+}
+
+section.wrap-shop .section-body {
+  width: 80%;
+  margin: 60px auto 0;
+  padding: 0 30px;
+}
+
+section.wrap-shop .story-list {
+  border: 2px dashed red;
+}
+
+section.wrap-shop .shop-best-wrap {
+  border: 2px dashed red;
+}
+
+
+
+/* end 현대 shop */
