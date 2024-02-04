@@ -131,6 +131,7 @@ section.notice .inner ul li {
 
 section.notice .inner ul li .img-box {
   object-fit: cover;
+  overflow: hidden;
   margin: 0.5%;
   position: relative;
 }
@@ -140,17 +141,23 @@ section.notice .inner ul li .img-box img {
   width: 100%;
 }
 
-section.notice .inner ul li .img-box::before {
+section.notice .inner ul li a:hover .img-box img {
+  transition: 0.8s;
+  transform: scale(1.2);
+}
+
+section.notice .inner ul li .img-box::after {
   content: '';
   width: 0;
   height: 100%;
-  background-color: rgba(0, 10, 97, 0.7);
+  background-color: rgba(22, 60, 104, 0.8);
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-section.notice .inner ul li a:hover .img-box::before {
+section.notice .inner ul li a:hover .img-box::after {
   width: 100%;
 }
 
@@ -246,6 +253,11 @@ section.information .inner ul li ul li {
   width: 50%;
   font-size: 12px;
   line-height: 2;
+}
+
+section.information .inner ul li ul li i {
+  margin-left: 5px;
+  font-size: 10px;
 }
 
 
