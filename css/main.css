@@ -390,18 +390,21 @@ header .txt-wrap .quick-menu2 button:last-child {
 }
 
 .section-5 .section-main5 div.section-brand {
-  width: 80%;
+  width: 1180px;
   height: 399px;
   margin: 50px auto;
-
 }
 
 .section-5 .section-main5 div.section-brand button {
-  width: 24%;
+  margin-left: 26px;
+  width: 255px;
   height: 399px;
   position: relative;
   overflow: hidden;
+}
 
+.section-5 .section-main5 div.section-brand button img {
+  width: 225px; height: 399px;
 }
 
 .section-5 .section-main5 div.section-brand button div {
@@ -420,7 +423,6 @@ header .txt-wrap .quick-menu2 button:last-child {
 
 .section-5 .section-main5 div.section-brand button::before {
   content: '';
-  
   background-color: rgba(5, 5, 5, 0.5);
   position: absolute;
   top: 0;
@@ -429,7 +431,7 @@ header .txt-wrap .quick-menu2 button:last-child {
 }
 
 .section-5 .section-main5 div.section-brand button:hover::before {
-  /* width: 80%; */
+  width: 100%; height: 100%;
 }
 
 .section-5 .section-main5 div.section-brand button div p {
