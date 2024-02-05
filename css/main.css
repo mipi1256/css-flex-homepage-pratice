@@ -4,6 +4,20 @@
 @import url(./common.css);
 
 
+h2.title {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 58px;
+
+}
+
+p.title-subtext {
+  margin: 30px 0 0;
+  font-size: 16px;
+  color: #666;
+  line-height: 34px;
+}
+
 
 /* 헤 더 */
 
@@ -198,7 +212,7 @@ header .txt-wrap .btn-2:nth-child(6) {
 }
 
 header .txt-wrap .play-btn {
-  margin-left: 125px;
+  margin-left: 150px;
 }
 header .txt-wrap .quick-menu {
   position: absolute;
@@ -266,17 +280,12 @@ header .txt-wrap .quick-menu2 button:last-child {
 
 .section-2 div.content_2 h2 {
   margin-top: 150px;
-  font-size: 33px;
-  font-weight: 700;
   text-align: center;
 }
 
 .section-2 div.content_2 p {
   margin-top: 30px;
-  color: gray;
   text-align: center;
-  font-size: 0.9em;
-  font-weight: 500;
 }
 
 .section-2 div.content_2 .model1 {
@@ -365,19 +374,6 @@ section.wrap-ec {
   /* border: 2px solid black; */
   margin-top: 140px;
   text-align: center;
-}
-
-section.wrap-ec .ec-mainheader {
-  font-size: 44px;
-  font-weight: bold;
-  line-height: 58px;
-}
-
-section.wrap-ec p.ec-mainsubtext {
-  font-size: 16px;
-  margin: 30px 0 0;
-  color: #666;
-  line-height: 34px;
 }
 
 section.wrap-ec .ec-body {
@@ -514,20 +510,6 @@ section.wrap-trendy {
   text-align: center;
 }
 
-section.wrap-trendy h2.title {
-  font-size: 44px;
-  font-weight: bold;
-  line-height: 58px;
-
-}
-
-section.wrap-trendy p.title-subtext {
-  margin: 30px 0 0;
-  font-size: 16px;
-  color: #666;
-  line-height: 34px;
-}
-
 section.wrap-trendy .section-body {
   width: 80%;
   margin: 60px auto 0;
@@ -598,19 +580,6 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img {
 section.wrap-shop {
   padding-top: 140px;
   text-align: center;
-}
-
-section.wrap-shop h2.title {
-  font-size: 44px;
-  font-weight: bold;
-  line-height: 58px;
-}
-
-section.wrap-shop p.title-subtext {
-  margin: 30px 0 0;
-  font-size: 16px;
-  color: #666;
-  line-height: 34px;
 }
 
 section.wrap-shop .section-body {
@@ -780,15 +749,12 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
 
 
 
-
-
-
-
 /* 세션 5 시작 */
 
 .section-5 {
   width: 100%;
   height: 722px;
+  margin-top: 200px;
 }
 
 .section-5 div.section-main5 {
@@ -798,17 +764,11 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
 }
 
 .section-5 div h2 {
-  font-size: 33px;
-  font-weight: 700;
   text-align: center;
-  margin-top: 0px;
 }
 
 .section-5 div p {
-  color: gray;
   text-align: center;
-  font-size: 0.9em;
-  font-weight: 500;
   margin-top: 30px;
 }
 
@@ -890,13 +850,10 @@ section.event .inner {
 }
 
 section.event .inner h2 {
-  font-weight: bold;
-  font-size: 45px;
   text-align: center;
 }
 
 section.event .inner>p {
-  font-size: 14px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -973,8 +930,6 @@ section.notice .inner {
 }
 
 section.notice .inner h2 {
-  font-weight: bold;
-  font-size: 45px;
   text-align: center;
 }
 
