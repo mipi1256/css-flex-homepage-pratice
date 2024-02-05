@@ -166,9 +166,7 @@ header .txt-wrap .main-content {
   height: 50%;
   width: 70%;
 }
-header .txt-wrap .container-btn {
-  border: 1px dashed;
-}
+
 
 header .txt-wrap .btn-2 {
   color: gray;
@@ -422,8 +420,7 @@ header .txt-wrap .quick-menu2 button:last-child {
 
 .section-5 .section-main5 div.section-brand button::before {
   content: '';
-  width: 0;
-  height: 100%;
+  
   background-color: rgba(5, 5, 5, 0.5);
   position: absolute;
   top: 0;
@@ -432,7 +429,7 @@ header .txt-wrap .quick-menu2 button:last-child {
 }
 
 .section-5 .section-main5 div.section-brand button:hover::before {
-  width: 100%;
+  /* width: 80%; */
 }
 
 .section-5 .section-main5 div.section-brand button div p {

@@ -1,0 +1,1224 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* import common */
+@import url(./common.css);
+
+
+
+/* 헤 더 */
+
+nav.top-btn {
+  position: fixed;
+  bottom: 11%; right: 50px;
+  z-index: 999;
+
+}
+/* 맨 위 메 뉴 시작 */
+
+div.main_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  height: 100px;
+  background: #fff;
+  z-index: 999;
+  opacity: 0.7;
+}
+
+div.main_header .inner_wrap {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+
+
+
+}
+
+div.main_header .inner_wrap .img-log {
+  width: 10%;
+
+}
+
+div.main_header .inner_wrap .img-log img {
+  width: 100%;
+  height: 30px;
+}
+
+div.main_header .inner_wrap ul {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+div.main_header .inner_wrap ul li button {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+  height: 100%;
+}
+
+div.main_header .inner_wrap div {
+  width: 30%;
+}
+
+div.main_header .inner_wrap .img-log {
+  background: url(../img/hyu_logo_og_image.jpg) no-repeat center/cover;
+  cursor: pointer;
+}
+
+
+div.main_header .inner_wrap div a {
+  font-size: 15px;
+  height: 100%;
+}
+
+div.main_header .inner_wrap div button {
+  width: 13%;
+  height: 100%;
+}
+
+div.main_header .inner_wrap div .btn-1 {
+  margin-right: 20px;
+}
+
+/* 맨 위 메 뉴 끝*/
+
+
+
+/* 첫 번 째 메 인 사 진 부 분 */
+header.top_main {
+  background: url(../img/brand_kv_ioniq6_w.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 950px;
+  position: relative;
+
+}
+
+header .txt-wrap {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  height: 90%;
+}
+
+header .txt-wrap a {
+  display: block;
+  color: #fff;
+}
+
+header .txt-wrap .text-1 {
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+header .txt-wrap .text-2 {
+  font-size: 20px;
+  font-weight: 600;
+
+  position: absolute;
+  top: 120px;
+  left: 300px;
+}
+
+header .txt-wrap .btn-less {
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: #fff;
+  font-size: 50px;
+}
+
+header .txt-wrap .btn-than {
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  color: #fff;
+  font-size: 50px;
+}
+
+header .txt-wrap div .text-3 {
+  position: absolute;
+  top: 315px;
+  left: 150px;
+}
+
+header .txt-wrap div .text-4 {
+  position: absolute;
+  top: 315px;
+  right: 150px;
+}
+
+header .txt-wrap .main-content {
+  margin: 10% auto;
+  height: 50%;
+  width: 70%;
+}
+header .txt-wrap .container-btn {
+  border: 1px dashed;
+}
+
+header .txt-wrap .btn-2 {
+  color: gray;
+  opacity: 0.8;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+
+header .txt-wrap .btn-2:nth-child(2) {
+  margin-left: 25px;
+}
+
+header .txt-wrap .btn-2:nth-child(3) {
+  margin-left: 50px;
+}
+
+header .txt-wrap .btn-2:nth-child(4) {
+  margin-left: 75px;
+}
+
+header .txt-wrap .btn-2:nth-child(5) {
+  margin-left: 100px;
+}
+
+header .txt-wrap .btn-2:nth-child(6) {
+  margin-left: 125px;
+  color: aqua;
+}
+
+header .txt-wrap .play-btn {
+  margin-left: 150px;
+}
+header .txt-wrap .quick-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: lightgray;
+  opacity: 0.4;
+}
+
+header .txt-wrap .quick-menu1 {
+  margin: 0 auto;
+  width: 48%;
+}
+
+header .txt-wrap .quick-menu1 button {
+  width: 98px;
+  margin: 0 5px;
+  font-size: 12px; font-weight: 600;
+
+}
+
+header .txt-wrap .quick-menu1 button i {
+  font-size: 15px;
+
+}
+
+header .txt-wrap .quick-menu1 button img {
+  width: 100%;
+  padding: 18px 18px 8px 18px;
+}
+
+header .txt-wrap .quick-menu2 {
+  margin: 0 auto;
+  width: 3%;
+}
+
+header .txt-wrap .quick-menu2 button {
+  border-bottom: 3px solid;
+  width: 45%;
+}
+
+header .txt-wrap .quick-menu2 button:last-child {
+  border-bottom: 3px solid rgb(121, 118, 118);
+}
+
+/* 헤 더 끝 */
+
+
+
+
+/* 세 션 1 */
+
+
+.section-2 {
+  width: 100%;
+  height: 800px;
+}
+
+.section-2 div.content_2 {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+
+.section-2 div.content_2 h2 {
+  margin-top: 150px;
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-2 div.content_2 p {
+  margin-top: 30px;
+  color: gray;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.section-2 div.content_2 .model1 {
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+
+.section-2 div.content_2 .model1 a.model1-1 {
+  width: 574px;
+  height: 432px;
+  position: absolute;
+  top: 70px;
+}
+
+.section-2 div.content_2 .model1 a.model1-1 div {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0%;
+  background: rgb(39, 114, 163);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 60px;
+}
+
+.section-2 div.content_2 .model1 div.model2 {
+  width: 30%;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+}
+
+.section-2 div.content_2 .model1 div.model2 button {
+  border-left: 1px solid lightgray;
+  color: gray;
+  font-weight: 600;
+}
+
+.section-2 div.content_2 .model1 div.model2 button:first-child {
+  border: none;
+  color: rgb(39, 114, 163);
+}
+
+.section-2 div.content_2 .model1 div.model3 a {
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+}
+
+.section-2 div.content_2 .model1 div.model3 button {
+  width: 224px;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.section-2 div.content_2 .model1 div.model3 button img {
+  width: 224px;
+  height: 168px;
+}
+
+.section-2 div.content_2 .model1 div.model3 button:last-child {
+  position: absolute;
+  top: 300px;
+  left: 72%;
+}
+
+/* 세션 1 끝 */
+
+
+
+
+
+/* electric car start */
+section.wrap-ec {
+  /* border: 2px solid black; */
+  margin-top: 140px;
+  text-align: center;
+}
+
+section.wrap-ec .ec-mainheader {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+section.wrap-ec p.ec-mainsubtext {
+  font-size: 16px;
+  margin: 30px 0 0;
+  color: #666;
+  line-height: 34px;
+}
+
+section.wrap-ec .ec-body {
+  width: 80%;
+  margin: 60px auto 0;
+  padding: 0 30px;
+}
+
+section.wrap-ec .ec-body .electric-car {
+  margin: 51px 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-img {
+  width: 65%;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-img img {
+  width: 100%;
+  /* height: 100%; */
+  box-sizing: content-box;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  background: #f7f3f2;
+  padding: 52px 60px;
+
+  flex-direction: column;
+  position: relative;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner{
+  box-sizing: border-box;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-badge {
+  background: #007fa8;
+  font-size: 15px;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #007fa8;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-carname {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 44px;
+  margin: 8px 0 9px;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-subtext {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2px;
+  margin: 13px 0 0;
+  font-weight: bold;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-more {
+  margin-top: 65px;
+  width: auto;
+  font-size: 14px;
+  background: #022c5f;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 15px 26px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+/* section.wrap-ec .ec-body .electric-car .ec-info .ec-network {
+  /* margin-bottom: 35px; 
+} */
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-network-header {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  /* letter-spacing: -.24px; */
+  line-height: 34px;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-network .network-subtext {
+  color: #666;
+  font-size: 16px;
+  /* text-align: justify; */
+  line-height: 45px;
+  /* letter-spacing: -2px; */
+  margin: 6px 0 20px;
+  font-weight: bold;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link {
+  position: relative;
+  z-index: 1;
+  /* padding-top: 15px; */
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link a {
+  color: #002c5f;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -2px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link a:last-child {
+  padding-left: 30px;
+}
+
+/* end electric car */
+
+
+/* trendy hyundai start */
+
+section.wrap-trendy {
+  padding-top: 140px;
+  text-align: center;
+}
+
+section.wrap-trendy h2.title {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 58px;
+
+}
+
+section.wrap-trendy p.title-subtext {
+  margin: 30px 0 0;
+  font-size: 16px;
+  color: #666;
+  line-height: 34px;
+}
+
+section.wrap-trendy .section-body {
+  width: 80%;
+  margin: 60px auto 0;
+  padding: 0 30px;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px dashed red; */
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info {
+  width: 30%;
+  padding: 100px 60px 0 ;
+  background: #f6f3f2;
+  text-align: left;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title span {
+  font-weight: 400;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info p.txt {
+  margin: 35px 0 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 555;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info a {
+  width: 120px;
+  height: 40px;
+  margin: 70px 0 0;
+  font-size: 13px;
+  background: #002c5f;
+  font-weight: 555;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 26px;
+  letter-spacing: -1px;
+  box-sizing: border-box;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img {
+  width: 80%;
+}
+
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img {
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+/* end trendy hyundai */
+
+/* 현대 shop contents start */
+
+section.wrap-shop {
+  padding-top: 140px;
+  text-align: center;
+}
+
+section.wrap-shop h2.title {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+section.wrap-shop p.title-subtext {
+  margin: 30px 0 0;
+  font-size: 16px;
+  color: #666;
+  line-height: 34px;
+}
+
+section.wrap-shop .section-body {
+  width: 80%;
+  margin: 60px auto 0;
+  padding: 0 30px;
+}
+
+section.wrap-shop .section-body ul.story-list {
+  /* border: 2px dashed red; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin: 51px 0 0;
+}
+
+section.wrap-shop .section-body ul.story-list li {
+  width: 33.33%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 0 32px;
+}
+section.wrap-shop .section-body ul.story-list li:first-child{
+  margin: 0;
+}
+
+section.wrap-shop .section-body ul.story-list li a {
+  display: block;
+  background: transparent;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+section.wrap-shop .section-body .story-list ul.story-list li a .img {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+section.wrap-shop .section-body ul.story-list li a .story-txt {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 9px 0 10px 20px;
+  background: rgba(0, 0, 0, .3);
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: -2.9px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+section.wrap-shop .section-body .shop-best-wrap {
+  /* border: 2px dashed red; */
+  display: flex;
+  max-height: 288px;
+  margin-top: 40px;
+  text-align: left;
+
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more {
+  /* border: 2px dashed red; */
+  position: relative;
+  padding: 40px 30px 0;
+  width: 20%;
+  background: #f6f3f2;
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more h3.title {
+  font-size: 24px;
+  color: #000;
+  line-height: 26px;
+  font-weight: 600;
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more h3.title a{
+  position: absolute;
+  top: 164px;
+  display: block;
+  width: auto;
+  height: auto;
+  background: transparent;
+  font-size: 16px;
+  line-height: 30px;
+  color: #002c5f;
+}
+section.wrap-shop .section-body .shop-best-wrap .view-more .txt {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+}
+
+section.wrap-shop .section-body .shop-best-wrap ul.best-list {
+  /* border: 2px dashed red; */
+  display: flex;
+  width: 80%;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li {
+  width: 25%;
+  margin-left: 32px;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a{
+  position: relative;
+  display: block;
+  text-align: left;
+  background: transparent;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .ranking {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background: #007fa8;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  text-align: center;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img {
+  border: 1px solid #e5e5e5;
+  /* object-fit: fill; */
+  display: block;
+  box-sizing: border-box;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img img {
+  max-width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap {
+  box-sizing: border-box;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .product {
+  overflow: hidden;
+  margin: 12px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -.4px;
+  color: #000;
+  line-height: 22px;
+  box-sizing: border-box;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap{
+  display: flex;
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: #000;
+  line-height: 26px;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap .discount {
+  color: #e63312;
+  font-weight: bold;
+}
+section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap .price {
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* end 현대 shop */
+
+
+
+/* 세션 5 시작 */
+
+.section-5 {
+  width: 100%;
+  height: 722px;
+}
+
+.section-5 div.section-main5 {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+.section-5 div h2 {
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.section-5 div p {
+  color: gray;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.section-5 .section-main5 div.section-brand {
+  width: 80%;
+  height: 399px;
+  margin: 50px auto;
+
+}
+
+.section-5 .section-main5 div.section-brand button {
+  width: 24%;
+  height: 399px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.section-5 .section-main5 div.section-brand button div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  opacity: 0;
+}
+
+.section-5 .section-main5 div.section-brand button::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.section-5 .section-main5 div.section-brand button:hover::before {
+  width: 100%;
+}
+
+.section-5 .section-main5 div.section-brand button div p {
+  font-size: 14px;
+  width: 82%;
+  margin: 17px auto;
+  color: #fff;
+  font-weight: 600;
+}
+
+.section-5 .section-main5 div.section-brand button:hover div {
+  opacity: 1;
+}
+
+.section-5 .section-main5 div.section-brand button img {
+  width: 100%;
+}
+
+.section-5 .section-main5 div.section-brand button:hover img {
+  transform: scale(1.2);
+  width: 255px;
+  height: 399px;
+  transition: 0.8s;
+}
+
+/* 세션 5 끝 */
+
+
+/* section .event */
+
+section.event .inner {
+  margin: 100px auto;
+  width: 90%;
+}
+
+section.event .inner h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+section.event .inner>p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section.event .inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+section.event .inner ul li {
+  width: 30%;
+  margin: 0 20px;
+}
+
+section.event .inner ul li .img-box {
+  object-fit: cover;
+  position: relative;
+}
+
+section.event .inner ul li .img-box img {
+  width: 100%;
+}
+
+section.event .inner ul li .img-box::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.event .inner ul li a:hover .img-box::before {
+  width: 100%;
+}
+
+section.event .inner ul li .img-box::after {
+  content: '자세히 보기 +';
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  padding: 10px 30px;
+  opacity: 0;
+}
+
+section.event .inner ul li a:hover .img-box::after {
+  opacity: 1;
+}
+
+section.event .inner ul li h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+section.event .inner ul li p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* section .notice */
+
+section.notice .inner {
+  margin: 200px auto;
+  width: 60%;
+}
+
+section.notice .inner h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+section.notice .inner .tab {
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+section.notice .inner .tab li {
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 0, 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+}
+
+section.notice .inner .tab li.active {
+  color: white;
+  background-color: rgb(51, 141, 194);
+}
+
+section.notice .inner ul {
+  display: flex;
+}
+
+section.notice .inner ul li {
+  width: 25%;
+  position: relative;
+}
+
+section.notice .inner ul li .img-box {
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0.5%;
+  position: relative;
+}
+
+section.notice .inner ul li .img-box img {
+  height: 250px;
+  width: 100%;
+}
+
+section.notice .inner ul li a:hover .img-box img {
+  transition: 0.8s;
+  transform: scale(1.2);
+}
+
+section.notice .inner ul li .img-box::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(22, 60, 104, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section.notice .inner ul li a:hover .img-box::after {
+  width: 100%;
+}
+
+section.notice .inner ul li h3 {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+  border-radius: 0px;
+  opacity: 0;
+}
+
+section.notice .inner ul li span {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  opacity: 0;
+}
+
+section.notice .inner ul li a:hover h3 {
+  opacity: 1;
+}
+
+section.notice .inner ul li a:hover span {
+  opacity: 1;
+}
+
+section.notice .inner ul li p {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section.notice .inner ul li a:hover p {
+  border: 2px solid white;
+}
+
+/* section .information */
+section.information {
+  margin-top: 50px;
+  padding-top: 30px;
+  font-weight: bold;
+  background-color: #f6f3f2;
+  ;
+}
+
+section.information .inner {
+  border: 2px solid #f0e1dd;
+  margin: 0 380px -50px;
+  padding: 30px 30px 80px 50px;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+section.information .inner h2 {
+  font-size: 15px;
+  margin: 10px auto;
+}
+
+section.information .inner h3 {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: darkblue;
+}
+
+section.information .inner ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.information .inner ul li {
+  width: 30%;
+}
+
+section.information .inner ul li ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+section.information .inner ul li ul li {
+  width: 50%;
+  font-size: 12px;
+  line-height: 2;
+}
+
+section.information .inner ul li ul li i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+
+/* footer */
+
+footer {
+  background-color: rgb(28, 27, 27);
+  color: #aaa;
+}
+
+footer .inner {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-size: 13px;
+}
+
+footer .inner ul.footer1 {
+  display: flex;
+  justify-content: start;
+}
+
+
+footer .inner ul.footer1 li ul {
+  display: flex;
+  line-height: 3;
+}
+
+footer .inner ul.footer1 li ul li {
+  margin-right: 30px;
+}
+
+footer .inner ul.footer1 li ul li span {
+  color: white;
+}
+
+footer .inner ul li.logo {
+  padding-right: 70px;
+  padding-top: 20px;
+}
+
+footer .inner ul li p {
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+footer .inner ul li.link {
+  margin-left: 120px;
+}
+
+
+footer hr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer .inner ul.footer2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+}
+
+footer .inner ul.footer2 li {
+  display: flex;
+  width: 25%;
+  height: 50%;
+  font-size: 11px;
+  line-height: 1.5;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+footer .inner ul.footer2 li img {
+  object-fit: contain;
+  width: 15%;
+  margin-top: 10px;
+  margin-right: 5px;
+}
