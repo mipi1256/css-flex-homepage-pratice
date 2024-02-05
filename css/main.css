@@ -47,9 +47,6 @@ div.main_header .inner_wrap {
   display: flex;
   justify-content: space-between;
   height: 60px;
-
-
-
 }
 
 div.main_header .inner_wrap .img-log {
@@ -208,7 +205,7 @@ header .txt-wrap .btn-2:nth-child(5) {
 
 header .txt-wrap .btn-2:nth-child(6) {
   margin-left: 125px;
-  color: aqua;
+  color: rgb(0, 127, 168)
 }
 
 header .txt-wrap .play-btn {
@@ -372,7 +369,7 @@ header .txt-wrap .quick-menu2 button:last-child {
 /* electric car start */
 section.wrap-ec {
   /* border: 2px solid black; */
-  margin-top: 100px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -788,18 +785,17 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
 }
 
 .section-5 .section-main5 div.section-brand {
-  width: 80%;
+  width: 1180px;
   height: 399px;
   margin: 50px auto;
-
 }
 
 .section-5 .section-main5 div.section-brand button {
-  width: 24%;
+  margin-left: 26px;
+  width: 255px;
   height: 399px;
   position: relative;
   overflow: hidden;
-
 }
 
 .section-5 .section-main5 div.section-brand button div {
@@ -844,7 +840,7 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
 }
 
 .section-5 .section-main5 div.section-brand button img {
-  width: 100%;
+  width: 225px; height: 399px;
 }
 
 .section-5 .section-main5 div.section-brand button:hover img {
@@ -860,7 +856,7 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
 /* section .event */
 
 section.event .inner {
-  margin: 100px auto;
+  margin: 50px auto;
   width: 90%;
 }
 
@@ -936,6 +932,21 @@ section.event .inner ul li p {
   font-size: 15px;
   margin-top: 20px;
 }
+
+section.event .inner div.bottom-button {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+section.event .inner div.bottom-button .btn-2 {
+  color: rgb(0, 127, 168)
+}
+
+section.event .inner div.bottom-button .btn-2:nth-child(2) {
+  color: gray;
+}
+
 
 /* section .notice */
 
