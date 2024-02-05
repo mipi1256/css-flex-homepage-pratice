@@ -372,12 +372,13 @@ header .txt-wrap .quick-menu2 button:last-child {
 /* electric car start */
 section.wrap-ec {
   /* border: 2px solid black; */
-  margin-top: 140px;
+  margin-top: 100px;
   text-align: center;
 }
 
 section.wrap-ec .ec-body {
   width: 80%;
+  height: 485px;
   margin: 60px auto 0;
   padding: 0 30px;
 }
@@ -388,26 +389,29 @@ section.wrap-ec .ec-body .electric-car {
   font-size: 16px;
   line-height: 1.5;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-img {
-  width: 65%;
+  width: 737.52px;
+  height: 485px;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-img img {
-  width: 100%;
-  /* height: 100%; */
-  box-sizing: content-box;
+  width: 737.52px;
+  height: 485px;
+  object-fit: cover;
+  /* box-sizing: content-box; */
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info {
-  width: 35%;
+  width: 382.47px;
+  height: 485px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-align: left;
   background: #f7f3f2;
-  padding: 52px 60px;
+  padding: 45px 60px 0;
 
   flex-direction: column;
   position: relative;
@@ -419,7 +423,7 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-inner{
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-badge {
   background: #007fa8;
-  font-size: 15px;
+  font-size: 11px;
   color: #fff;
   padding: 5px;
   border: 1px solid #007fa8;
@@ -430,31 +434,31 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-badge {
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-carname {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   line-height: 44px;
-  margin: 8px 0 9px;
+  margin: 8px 0 6px;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-subtext {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
   letter-spacing: -2px;
-  margin: 13px 0 0;
+  margin: 10px 0 0;
   font-weight: bold;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-more {
-  margin-top: 65px;
+  margin-top: 30px;
   width: auto;
-  font-size: 14px;
+  font-size: 12px;
   background: #022c5f;
   color: #fff;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  padding: 15px 26px;
+  padding: 10px 21px;
   font-weight: 600;
   letter-spacing: -1px;
 }
@@ -464,8 +468,8 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-more {
 } */
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-network-header {
-  margin-top: 60px;
-  font-size: 20px;
+  margin-top: 50px;
+  font-size: 18px;
   font-weight: bold;
   color: #000;
   /* letter-spacing: -.24px; */
@@ -474,11 +478,11 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-network-header {
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .network-subtext {
   color: #666;
-  font-size: 16px;
+  font-size: 12px;
   /* text-align: justify; */
-  line-height: 45px;
+  line-height: 30px;
   /* letter-spacing: -2px; */
-  margin: 6px 0 20px;
+  margin: 6px 0 8px;
   font-weight: bold;
 }
 
@@ -511,28 +515,30 @@ section.wrap-trendy {
 }
 
 section.wrap-trendy .section-body {
-  width: 80%;
+  width: 100%;
+  height: 445px;
   margin: 60px auto 0;
   padding: 0 30px;
 }
 
 section.wrap-trendy .section-body .trendy-hyundai {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* border: 2px dashed red; */
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info {
-  width: 30%;
-  padding: 100px 60px 0 ;
+  width: 382px;
+  height: 445px;
+  padding: 55px 60px 0 ;
   background: #f6f3f2;
   text-align: left;
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: bold;
-  line-height: 44px;
+  /* line-height: 44px; */
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title span {
@@ -540,16 +546,17 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title 
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info p.txt {
-  margin: 35px 0 0;
-  font-size: 16px;
+  margin: 25px 0 0;
+  font-size: 14px;
   line-height: 30px;
+  letter-spacing: -1px;
   font-weight: 555;
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info a {
   width: 120px;
   height: 40px;
-  margin: 70px 0 0;
+  margin: 55px 0 0;
   font-size: 13px;
   background: #002c5f;
   font-weight: 555;
@@ -565,11 +572,13 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info a {
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img {
-  width: 80%;
+  width: 738px;
+  height: 445px;
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img {
-  width: 100%;
+  width: 738px;
+  height: 445px;
   box-sizing: border-box;
   vertical-align: top;
 }
@@ -583,7 +592,8 @@ section.wrap-shop {
 }
 
 section.wrap-shop .section-body {
-  width: 80%;
+  width: 1180px;
+  height: 533px;
   margin: 60px auto 0;
   padding: 0 30px;
 }
@@ -598,7 +608,8 @@ section.wrap-shop .section-body ul.story-list {
 }
 
 section.wrap-shop .section-body ul.story-list li {
-  width: 33.33%;
+  width: 352px;
+  height: 205px;
   overflow: hidden;
   position: relative;
   margin: 0 0 0 32px;
@@ -625,8 +636,8 @@ section.wrap-shop .section-body ul.story-list li a .story-txt {
   bottom: 0;
   width: 100%;
   padding: 9px 0 10px 20px;
-  background: rgba(0, 0, 0, .3);
-  font-size: 22px;
+  background: rgba(0, 0, 0, .5);
+  font-size: 18px;
   color: #fff;
   letter-spacing: -2.9px;
   font-weight: 700;
@@ -646,11 +657,12 @@ section.wrap-shop .section-body .shop-best-wrap .view-more {
   /* border: 2px dashed red; */
   position: relative;
   padding: 40px 30px 0;
-  width: 20%;
+  width: 224px;
+  height: 288px;
   background: #f6f3f2;
 }
 section.wrap-shop .section-body .shop-best-wrap .view-more h3.title {
-  font-size: 24px;
+  font-size: 22px;
   color: #000;
   line-height: 26px;
   font-weight: 600;
@@ -662,13 +674,14 @@ section.wrap-shop .section-body .shop-best-wrap .view-more h3.title a{
   width: auto;
   height: auto;
   background: transparent;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: bold;
   line-height: 30px;
   color: #002c5f;
 }
 section.wrap-shop .section-body .shop-best-wrap .view-more .txt {
   margin-top: 14px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
   color: #666;
 }
@@ -676,10 +689,12 @@ section.wrap-shop .section-body .shop-best-wrap .view-more .txt {
 section.wrap-shop .section-body .shop-best-wrap ul.best-list {
   /* border: 2px dashed red; */
   display: flex;
-  width: 80%;
+  width: 896px;
+  height: 288px;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li {
-  width: 25%;
+  width: 192px;
+  height: 288px;
   margin-left: 32px;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a{
@@ -711,8 +726,8 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img {
   box-sizing: border-box;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img img {
-  max-width: 90%;
-  height: 100%;
+  width: 192px;
+  height: 192px;
   object-fit: cover;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap {
