@@ -1,0 +1,20 @@
+현대차 로고 hyu_logo_og_image
+brand_kv_ioniq6_w 첫번째 메인사진
+
+
+견적내기 ico_estimation
+구매상담 ico_purchase_consult
+시승신청 ico_test_driving
+판매처검색 ico_customer_branch
+구매혜택 ico_monthly_benefit
+정비예약 ico_service_reservation
+
+1위 싼타페 MX04_EXT
+2위 아반떼 CN12_EXT
+3위 그렌저 GN02_EXT
+
+브랜드
+1 hyundai-hmgics-kv-w
+2 hyundai-ioniq6-awards-kv-w
+3hyundai-ioniq5-n-kv-w
+4 new-dedicated-ev-plant-ulsan-kv-w
