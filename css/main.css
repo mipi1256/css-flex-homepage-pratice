@@ -7,24 +7,21 @@
 /* electric car start */
 section.wrap-ec {
   /* border: 2px solid black; */
-  margin-top: 20px;
+  margin-top: 140px;
+  text-align: center;
 }
 
 section.wrap-ec .ec-mainheader {
-  font-size: 50px;
-  font-weight: 600;
-  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
   line-height: 58px;
-  letter-spacing: -.4px;
 }
 
-section.wrap-ec .ec-mainsubtext {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 50px;
+section.wrap-ec p.ec-mainsubtext {
+  font-size: 16px;
+  margin: 30px 0 0;
   color: #666;
   line-height: 34px;
-  letter-spacing: -2px;
 }
 
 section.wrap-ec .ec-body {
@@ -48,7 +45,7 @@ section.wrap-ec .ec-body .electric-car .ec-img {
 
 section.wrap-ec .ec-body .electric-car .ec-img img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   box-sizing: content-box;
 }
 
@@ -58,10 +55,14 @@ section.wrap-ec .ec-body .electric-car .ec-info {
   justify-content: space-between;
   text-align: left;
   background: #f7f3f2;
-  padding: 2.3vw 2.61vw 2.8vw 60px;
+  padding: 52px 60px;
 
   flex-direction: column;
   position: relative;
+}
+
+section.wrap-ec .ec-body .electric-car .ec-info .ec-inner{
+  box-sizing: border-box;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-badge {
@@ -77,18 +78,17 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-badge {
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-carname {
-  font-size: 38px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: bold;
   line-height: 44px;
-  letter-spacing: -.4px;
-  margin: 20px 0 30px;
+  margin: 8px 0 9px;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-subtext {
-  font-size: 28px;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: -2px;
-  font-weight: 500;
+  margin: 13px 0 0;
   font-weight: bold;
 }
 
@@ -107,39 +107,39 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-more {
   letter-spacing: -1px;
 }
 
-section.wrap-ec .ec-body .electric-car .ec-info .ec-network {
-  margin-bottom: 35px;
-}
+/* section.wrap-ec .ec-body .electric-car .ec-info .ec-network {
+  /* margin-bottom: 35px; 
+} */
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-network-header {
   margin-top: 60px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #000;
-  letter-spacing: -.24px;
+  /* letter-spacing: -.24px; */
   line-height: 34px;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .network-subtext {
   color: #666;
-  font-size: 19px;
-  text-align: justify;
+  font-size: 16px;
+  /* text-align: justify; */
   line-height: 45px;
-  letter-spacing: -2px;
-  margin: 20px 0;
+  /* letter-spacing: -2px; */
+  margin: 6px 0 20px;
   font-weight: bold;
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link {
   position: relative;
   z-index: 1;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link a {
   color: #002c5f;
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 16px;
   letter-spacing: -2px;
   cursor: pointer;
   display: inline-block;
@@ -183,12 +183,12 @@ section.wrap-trendy .section-body {
 section.wrap-trendy .section-body .trendy-hyundai {
   display: flex;
   justify-content: space-between;
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info {
-  width: 100%;
-  padding: 52px 60px 0;
+  width: 30%;
+  padding: 100px 60px 0 ;
   background: #f6f3f2;
   text-align: left;
 }
@@ -204,7 +204,7 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info h3.title 
 }
 
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info p.txt {
-  margin: 13px 0 0;
+  margin: 35px 0 0;
   font-size: 16px;
   line-height: 30px;
   font-weight: 555;
@@ -213,7 +213,7 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info p.txt {
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info a {
   width: 120px;
   height: 40px;
-  margin: 50px 0 0;
+  margin: 70px 0 0;
   font-size: 13px;
   background: #002c5f;
   font-weight: 555;
@@ -228,7 +228,13 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-info a {
   box-sizing: border-box;
 }
 
+section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img {
+  width: 80%;
+}
+
 section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img {
+  width: 100%;
+  box-sizing: border-box;
   vertical-align: top;
 }
 
@@ -315,7 +321,7 @@ section.wrap-shop .section-body .shop-best-wrap {
 
 }
 section.wrap-shop .section-body .shop-best-wrap .view-more {
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
   position: relative;
   padding: 40px 30px 0;
   width: 20%;
@@ -346,7 +352,7 @@ section.wrap-shop .section-body .shop-best-wrap .view-more .txt {
 }
 
 section.wrap-shop .section-body .shop-best-wrap ul.best-list {
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
   display: flex;
   width: 80%;
 }
@@ -378,28 +384,27 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .ranking {
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img {
   border: 1px solid #e5e5e5;
-  object-fit: fill;
+  /* object-fit: fill; */
   display: block;
   box-sizing: border-box;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .list-img img {
-  width: 195px;
+  max-width: 90%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap {
   box-sizing: border-box;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .product {
   overflow: hidden;
-  margin: 15px 0 0;
-  font-size: 16px;
+  margin: 12px 0 0;
+  font-size: 14px;
   font-weight: 600;
-  /* letter-spacing: -2px; */
+  letter-spacing: -.4px;
   color: #000;
   line-height: 22px;
   box-sizing: border-box;
-  word-break: keep-all;
 }
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap{
   display: flex;
