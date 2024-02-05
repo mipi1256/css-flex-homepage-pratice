@@ -369,7 +369,7 @@ header .txt-wrap .quick-menu2 button:last-child {
 /* electric car start */
 section.wrap-ec {
   /* border: 2px solid black; */
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -466,7 +466,7 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-inner .ec-more {
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-network-header {
   margin-top: 50px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: #000;
   /* letter-spacing: -.24px; */
@@ -475,11 +475,11 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-network-header {
 
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .network-subtext {
   color: #666;
-  font-size: 12px;
+  font-size: 16px;
   /* text-align: justify; */
   line-height: 30px;
   /* letter-spacing: -2px; */
-  margin: 6px 0 8px;
+  margin: 0px 0px 12px 0px;
   font-weight: bold;
 }
 
@@ -833,14 +833,20 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
   margin: 17px auto;
   color: #fff;
   font-weight: 600;
+  line-height: 25px;
 }
+.section-5 .section-main5 div.section-brand button div .section-brand-p1 {
+  font-size: 13px;
+}
+
 
 .section-5 .section-main5 div.section-brand button:hover div {
   opacity: 1;
 }
 
 .section-5 .section-main5 div.section-brand button img {
-  width: 225px; height: 399px;
+  width: 250px; height: 399px;
+  overflow: hidden;
 }
 
 .section-5 .section-main5 div.section-brand button:hover img {
