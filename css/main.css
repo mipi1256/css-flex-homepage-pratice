@@ -6,13 +6,19 @@
 
 
 /* 헤 더 */
+
+nav.top-btn {
+  position: fixed;
+  bottom: 11%; right: 50px;
+  z-index: 999;
+
+}
 /* 맨 위 메 뉴 시작 */
 
 div.main_header {
   position: fixed;
   top: 0;
   left: 0;
-  border: 1px dashed gray;
   width: 100%;
   padding: 10px 0;
   height: 100px;
@@ -23,7 +29,6 @@ div.main_header {
 
 div.main_header .inner_wrap {
   width: 80%;
-  border: 1px dashed blue;
   margin: 10px auto;
   display: flex;
   justify-content: space-between;
@@ -45,7 +50,6 @@ div.main_header .inner_wrap .img-log img {
 
 div.main_header .inner_wrap ul {
   width: 50%;
-  border: 1px dashed black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -60,13 +64,12 @@ div.main_header .inner_wrap ul li button {
 }
 
 div.main_header .inner_wrap div {
-  border: 1px dashed purple;
   width: 30%;
 }
 
 div.main_header .inner_wrap .img-log {
   background: url(../img/hyu_logo_og_image.jpg) no-repeat center/cover;
-
+  cursor: pointer;
 }
 
 
@@ -77,7 +80,6 @@ div.main_header .inner_wrap div a {
 
 div.main_header .inner_wrap div button {
   width: 13%;
-  border: 1px dashed red;
   height: 100%;
 }
 
@@ -92,7 +94,6 @@ div.main_header .inner_wrap div .btn-1 {
 /* 첫 번 째 메 인 사 진 부 분 */
 header.top_main {
   background: url(../img/brand_kv_ioniq6_w.jpg) no-repeat center/cover;
-  border: 1px dashed blue;
   width: 100%;
   height: 950px;
   position: relative;
@@ -101,7 +102,6 @@ header.top_main {
 
 header .txt-wrap {
   width: 100%;
-  border: 1px dashed green;
   position: absolute;
   top: 10%;
   height: 90%;
@@ -109,7 +109,6 @@ header .txt-wrap {
 
 header .txt-wrap a {
   display: block;
-  border: 1px dashed red;
   color: #fff;
 }
 
@@ -131,7 +130,6 @@ header .txt-wrap .text-2 {
 }
 
 header .txt-wrap .btn-less {
-  border: 1px dashed red;
   width: 50px;
   height: 150px;
   position: absolute;
@@ -142,7 +140,6 @@ header .txt-wrap .btn-less {
 }
 
 header .txt-wrap .btn-than {
-  border: 1px dashed red;
   width: 50px;
   height: 150px;
   position: absolute;
@@ -172,7 +169,6 @@ header .txt-wrap .main-content {
 
 
 header .txt-wrap .btn-2 {
-  border: 1px dashed darkcyan;
   color: gray;
   opacity: 0.8;
   position: absolute;
@@ -201,14 +197,12 @@ header .txt-wrap .btn-2:nth-child(6) {
   color: aqua;
 }
 
-header .txt-wrap .btn-2:nth-child(7) {
-  margin-left: 150px;
+header .txt-wrap .play-btn {
+  margin-left: 125px;
 }
-
 header .txt-wrap .quick-menu {
   position: absolute;
   bottom: 0;
-  border: 1px dashed blue;
   width: 100%;
   height: 20%;
   background-color: lightgray;
@@ -217,14 +211,13 @@ header .txt-wrap .quick-menu {
 
 header .txt-wrap .quick-menu1 {
   margin: 0 auto;
-  width: 49%;
-  border: 1px dashed red;
+  width: 48%;
 }
 
 header .txt-wrap .quick-menu1 button {
   width: 98px;
-  border: 1px dashed blue;
   margin: 0 5px;
+  font-size: 12px; font-weight: 600;
 
 }
 
@@ -235,17 +228,17 @@ header .txt-wrap .quick-menu1 button i {
 
 header .txt-wrap .quick-menu1 button img {
   width: 100%;
+  padding: 18px 18px 8px 18px;
 }
 
 header .txt-wrap .quick-menu2 {
-  border: 1px dashed red;
   margin: 0 auto;
-  width: 5%;
+  width: 3%;
 }
 
 header .txt-wrap .quick-menu2 button {
   border-bottom: 3px solid;
-  width: 46%;
+  width: 45%;
 }
 
 header .txt-wrap .quick-menu2 button:last-child {
@@ -263,18 +256,15 @@ header .txt-wrap .quick-menu2 button:last-child {
 .section-2 {
   width: 100%;
   height: 800px;
-  border: 1px dashed black;
 }
 
 .section-2 div.content_2 {
   margin: 0 auto;
   width: 80%;
   height: 100%;
-  border: 1px dashed red;
 }
 
 .section-2 div.content_2 h2 {
-  border: 1px dashed palevioletred;
   margin-top: 150px;
   font-size: 33px;
   font-weight: 700;
@@ -282,7 +272,6 @@ header .txt-wrap .quick-menu2 button:last-child {
 }
 
 .section-2 div.content_2 p {
-  border: 1px dashed palevioletred;
   margin-top: 30px;
   color: gray;
   text-align: center;
@@ -291,7 +280,6 @@ header .txt-wrap .quick-menu2 button:last-child {
 }
 
 .section-2 div.content_2 .model1 {
-  border: 1px dashed green;
   width: 80%;
   height: 70%;
   margin: 0 auto;
@@ -323,7 +311,6 @@ header .txt-wrap .quick-menu2 button:last-child {
 .section-2 div.content_2 .model1 div.model2 {
   width: 30%;
   height: 30px;
-  border: 1px dashed blue;
   position: absolute;
   top: 70px;
   left: 50%;
@@ -343,7 +330,6 @@ header .txt-wrap .quick-menu2 button:last-child {
 .section-2 div.content_2 .model1 div.model3 a {
   font-size: 40px;
   font-weight: 700;
-  border: 1px dashed blue;
   position: absolute;
   top: 120px;
   left: 50%;
@@ -352,7 +338,6 @@ header .txt-wrap .quick-menu2 button:last-child {
 .section-2 div.content_2 .model1 div.model3 button {
   width: 224px;
   height: 200px;
-  border: 1px dashed blue;
   position: absolute;
   top: 300px;
   left: 50%;
@@ -381,21 +366,19 @@ header .txt-wrap .quick-menu2 button:last-child {
 .section-5 {
   width: 100%;
   height: 722px;
-  border: 1px dashed red;
 }
 
 .section-5 div.section-main5 {
   width: 80%;
   height: 100%;
   margin: 0px auto;
-  border: 1px dashed black;
 }
 
 .section-5 div h2 {
   font-size: 33px;
   font-weight: 700;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .section-5 div p {
@@ -410,10 +393,67 @@ header .txt-wrap .quick-menu2 button:last-child {
   width: 80%;
   height: 399px;
   margin: 50px auto;
-  border: 1px dashed blue;
-} 
-.section-5 .section-main5 div.section-brand button {
-  width: 255px; height: 399px;
-  border: 1px dashed red;
-  
+
 }
+
+.section-5 .section-main5 div.section-brand button {
+  width: 24%;
+  height: 399px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.section-5 .section-main5 div.section-brand button div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  opacity: 0;
+}
+
+.section-5 .section-main5 div.section-brand button::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.section-5 .section-main5 div.section-brand button:hover::before {
+  width: 100%;
+}
+
+.section-5 .section-main5 div.section-brand button div p {
+  font-size: 14px;
+  width: 82%;
+  margin: 17px auto;
+  color: #fff;
+  font-weight: 600;
+}
+
+.section-5 .section-main5 div.section-brand button:hover div {
+  opacity: 1;
+}
+
+.section-5 .section-main5 div.section-brand button img {
+  width: 100%;
+}
+
+.section-5 .section-main5 div.section-brand button:hover img {
+  transform: scale(1.2);
+  width: 255px;
+  height: 399px;
+  transition: 0.8s;
+}
+
+/* 세션 5 끝 */
