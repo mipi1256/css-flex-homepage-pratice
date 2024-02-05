@@ -149,12 +149,10 @@ section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link a {
 section.wrap-ec .ec-body .electric-car .ec-info .ec-network .ec-link a:last-child {
   padding-left: 30px;
 }
-
 /* end electric car */
 
 
 /* trendy hyundai start */
-
 section.wrap-trendy {
   padding-top: 140px;
   text-align: center;
@@ -237,11 +235,10 @@ section.wrap-trendy .section-body .trendy-hyundai .trendy-hyundai-img img {
   box-sizing: border-box;
   vertical-align: top;
 }
-
 /* end trendy hyundai */
 
-/* 현대 shop contents start */
 
+/* 현대 shop contents start */
 section.wrap-shop {
   padding-top: 140px;
   text-align: center;
@@ -420,10 +417,5 @@ section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .
 section.wrap-shop .section-body .shop-best-wrap ul.best-list li a .productwrap .pricewrap .price {
   font-weight: bold;
 }
-
-
-
-
-
 
 /* end 현대 shop */
