@@ -166,7 +166,9 @@ header .txt-wrap .main-content {
   height: 50%;
   width: 70%;
 }
-
+header .txt-wrap .container-btn {
+  border: 1px dashed;
+}
 
 header .txt-wrap .btn-2 {
   color: gray;
@@ -198,7 +200,7 @@ header .txt-wrap .btn-2:nth-child(6) {
 }
 
 header .txt-wrap .play-btn {
-  margin-left: 125px;
+  margin-left: 150px;
 }
 header .txt-wrap .quick-menu {
   position: absolute;
