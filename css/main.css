@@ -456,3 +456,31 @@ header .txt-wrap .quick-menu2 button:last-child {
 }
 
 /* 세션 5 끝 */
+
+
+/* 세션 2 전기차부분 */
+
+section.wrap-ec {
+  width: 100%; height: 800px;
+  border: 1px dashed red;
+}
+
+section.wrap-ec h2.ec-mainheader {
+  width: 100%;
+  border: 1px dashed red;
+  text-align: center;
+
+}
+
+section.wrap-ec p.ec-mainsubtext {
+  width: 100%;
+  border: 1px dashed black;
+  text-align: center;
+}
+section.wrap-ec div.ec-body {
+  width: 80%; height: 70%;
+  border: 1px dashed green;
+  margin: 0 auto;
+}
+
+
