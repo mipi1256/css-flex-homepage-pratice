@@ -264,14 +264,14 @@ section.information .inner ul li ul li i {
 /* footer */
 
 footer {
-  background-color: #111;
+  background-color: rgb(28, 27, 27);
   color: #aaa;
 }
 
 footer .inner {
   width: 60%;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 30px 20px;
   font-size: 13px;
 }
 
@@ -294,15 +294,20 @@ footer .inner ul.footer1 li ul li span {
   color: white;
 }
 
-footer .inner ul.footer1 img {
+footer .inner ul li.logo {
   padding-right: 70px;
   padding-top: 20px;
 }
 
 footer .inner ul li p {
-  font-size: 12px;
+  font-size: 11px;
   padding-top: 10px;
 }
+
+footer .inner ul li.link {
+  margin-left: 120px;
+}
+
 
 footer hr {
   margin-top: 40px;
